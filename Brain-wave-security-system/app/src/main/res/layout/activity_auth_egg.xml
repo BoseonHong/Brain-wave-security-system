@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
     tools:context="com.example.brainwavess.brain_wave_security_system.AuthEGGActivity">
 
     <TextView
@@ -13,17 +15,20 @@
         android:layout_height="wrap_content"
         android:text="뇌파등록"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:layout_marginTop="54dp" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher" />
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="40dp" />
 
     <Button
         android:id="@+id/btn_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="등록" />
+        android:text="등록"
+        android:layout_marginTop="48dp"/>
 </LinearLayout>

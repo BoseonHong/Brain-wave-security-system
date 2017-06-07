@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="30dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
     tools:context="com.example.brainwavess.brain_wave_security_system.MainActivity">
 
     <TextView
@@ -15,7 +16,8 @@
         android:text="Brainwave Application"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginTop="54dp"/>
 
     <EditText
         android:id="@+id/et_id"
@@ -23,8 +25,8 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="ID"
-        android:textAlignment="textStart" />
+        android:layout_marginTop="40dp"
+        android:text="ID" />
 
     <EditText
         android:id="@+id/et_password"
@@ -44,12 +46,15 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:text="Login"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="24dp"/>
 
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign up" />
+        android:text="Sign up"
+        android:layout_marginTop="24dp"/>
 
 </LinearLayout>
