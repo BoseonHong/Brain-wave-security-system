@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".SignupActivity" />
         <activity android:name=".AuthEGGActivity" />
-        <activity android:name=".LockLoginActivity"></activity>
+        <activity android:name=".LockLoginActivity" />
+        <activity android:name=".SuccessLogin"></activity>
     </application>
 
 </manifest>

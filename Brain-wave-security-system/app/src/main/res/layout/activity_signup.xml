@@ -21,26 +21,26 @@
         android:id="@+id/et_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="ID"
-        android:layout_marginTop="40dp" />
+        android:hint="ID"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/et_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Password" />
+        android:hint="Password"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:hint="Name"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/btn_next"
